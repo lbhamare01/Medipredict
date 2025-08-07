@@ -78,4 +78,11 @@ Continuous Integration: Updates to the codebase can be automatically built and d
 Environment Variables: Sensitive information and configuration are managed via Azure portal settings.
 Access: Users can interact with the app in real time via the provided Azure URL, benefiting from cloud-based predictions and advice.
 
----*Feel free to update this README with more details about your project!* 
+## DEMO
+
+https://github.com/user-attachments/assets/fc3aff7d-be73-4160-867f-8d630e4c43f0
+
+
+
+
+
