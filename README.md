@@ -31,8 +31,8 @@ This project is a medical data analysis and chatbot system. It includes data exp
 - `models/` - Trained models and encoders
 - `features/` - Feature files
 - `outputs/` - Generated outputs (plots, reports, etc.)
-  ##
-  Key Features
+  
+## Key Features
 Modern Streamlit App: Glassmorphism UI, stepper navigation, sidebar branding, health tips, and privacy notice.
 Symptom Input: Autocomplete, cluster-based suggestions, and per-symptom severity selection.
 Results Display: Top 3 disease predictions with confidence scores, mapped precautions, and doctor recommendations.
@@ -55,9 +55,27 @@ How to Use MediPredict
 - Use the notebooks for data exploration and model training.
 - Use the scripts in `src/` for running the chatbot, training models, and data processing.
 
-## Requirements
-See `requirements.txt` for Python dependencies.
+## Data Exploration, Cleaning, and Model Training
+Exploratory Data Analysis (EDA):
 
----
+Use the Jupyter notebooks in the notebooks/ directory to explore the medical datasets, visualize distributions, and understand relationships between symptoms and diseases.
+EDA helps identify missing values, outliers, and feature importance, guiding further data processing and modeling.
+Data Cleaning:
 
-*Feel free to update this README with more details about your project!* 
+The project includes scripts and notebook cells for handling missing data, correcting inconsistent entries, encoding categorical variables, and normalizing features.
+Cleaned data is saved in the outputs/ directory for use in model training.
+Model Training:
+
+## Multiple machine learning models are supported, including KNN, Naive Bayes, Decision Tree, Random Forest, XGBoost, and Logistic Regression.
+Notebooks provide code for training, evaluating, and tuning models using cross-validation and hyperparameter search (e.g., RandomizedSearchCV).
+Trained models are saved in the models/ directory and used by the Streamlit app and chatbot for predictions.
+Deployment
+MediPredict is deployed on Azure, making it accessible from anywhere with secure, scalable infrastructure. The deployment process involves:
+
+## Containerization: The Streamlit app and backend are packaged into a Docker container for portability and consistency.
+Azure App Service: The container is deployed to Azure App Service, which provides managed hosting, scaling, and HTTPS security.
+Continuous Integration: Updates to the codebase can be automatically built and deployed using Azure Pipelines or GitHub Actions.
+Environment Variables: Sensitive information and configuration are managed via Azure portal settings.
+Access: Users can interact with the app in real time via the provided Azure URL, benefiting from cloud-based predictions and advice.
+
+---*Feel free to update this README with more details about your project!* 
