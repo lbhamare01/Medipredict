@@ -31,7 +31,17 @@ This project is a medical data analysis and chatbot system. It includes data exp
 - `models/` - Trained models and encoders
 - `features/` - Feature files
 - `outputs/` - Generated outputs (plots, reports, etc.)
-
+  ##
+  Key Features
+Modern Streamlit App: Glassmorphism UI, stepper navigation, sidebar branding, health tips, and privacy notice.
+Symptom Input: Autocomplete, cluster-based suggestions, and per-symptom severity selection.
+Results Display: Top 3 disease predictions with confidence scores, mapped precautions, and doctor recommendations.
+PDF Download: Users can download their prediction results as a PDF summary.
+Medical Chatbot: Rule-based system for answering health-related queries.
+Robust Mapping: Ensures correct display of precautions and doctor advice, with fallback to general physician.
+Notebook Workflows: Train, evaluate, and tune models interactively.
+Azure Deployment: The app is deployed on Azure for scalable, secure, and real-time access.
+How to Use MediPredict
 ## Getting Started
 
 1. Install dependencies:
