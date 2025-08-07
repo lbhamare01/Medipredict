@@ -1,4 +1,4 @@
-MediPredict: AI-Powered Medical Disease Prediction
+## MediPredict: AI-Powered Medical Disease Prediction
 ##
 MediPredict is an advanced, user-friendly platform for medical disease prediction and health advice. It combines machine learning, interactive web technology, and a rule-based chatbot to help users understand their symptoms and receive actionable recommendations. The system is designed for both healthcare professionals and the general public, making medical insights accessible, transparent, and easy to use.
 ##
